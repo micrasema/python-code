@@ -1,7 +1,8 @@
-import sys #module needed to open outside file
+#this file takes a file and assigns
+import sys 
 InFile = sys.argv[1] #assigns this variable to file opened, specified in shell
-OutFileName = str('1kite_1478g_146t_nt_partition') #this refers to a BLANK file that you 
-                                                   #MUST have already created (choose any name)
+OutFileName = str(InFile) + '_partition' #this refers to a BLANK file that you 
+                                                  
 
 
 OutFile =open(OutFileName, 'a') #this opens up the file for 'appending' to add new lines of charsets
