@@ -1,4 +1,6 @@
-#this file takes a file and assigns
+#can take several files and create lines of a RAxML formatted parition files
+#this script generates one line, to generate several use a shell script to loop
+#through a folder that contains the partitions
 import sys 
 InFile = sys.argv[1] #assigns this variable to file opened, specified in shell
 OutFileName = str(InFile) + '_partition' #this refers to a BLANK file that you 
