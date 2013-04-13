@@ -1,3 +1,5 @@
+#this code retrieves important phylogenetic statistics form a RAxML.info file
+#and outputs them to a tab delimited text file
 from glob import glob
 import sys # the sys module is necessary to allow us to use sys.argv
 
