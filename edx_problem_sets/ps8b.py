@@ -165,7 +165,7 @@ class Patient(object):
             for each in self.getViruses():
                 copy_viruses.append(each.reproduce(popDensity))
         except NoChildException:
-            pass
+            continue
         
         return self.getTotalPop()
 
